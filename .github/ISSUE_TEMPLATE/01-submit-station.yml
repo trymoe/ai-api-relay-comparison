@@ -1,0 +1,35 @@
+name: 提交中转站
+description: 站长自荐或网友推荐一个尚未收录的 AI API 中转站。
+title: "[收录申请] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先在[萌测站点清单](https://try.moe/stations)搜索站名或官网域名。已有收录的站点请用资料纠错表单。
+        Issue 内容公开，请只提交可公开核对的资料。资料经核实后收录。
+  - type: input
+    id: station-name
+    attributes:
+      label: 中转站名称
+    validations:
+      required: true
+  - type: input
+    id: station-url
+    attributes:
+      label: 官方网站
+      placeholder: "https://example.com"
+    validations:
+      required: true
+  - type: input
+    id: pricing-url
+    attributes:
+      label: 公开报价或官方文档
+      description: 优先提供无需登录的价表。没有公开价表时，可提供官方模型目录或接入文档。
+      placeholder: "https://example.com/pricing"
+  - type: textarea
+    id: station-details
+    attributes:
+      label: 站点介绍
+      description: 请简述支持的模型、计费方式，以及你是站方还是用户。可补充有官方来源的付款或退款信息。
+    validations:
+      required: true

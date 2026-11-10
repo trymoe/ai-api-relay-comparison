@@ -1,0 +1,29 @@
+name: 报价与资料纠错
+description: 更新现有站点的模型报价、支持范围、支付方式、退款规则或其他公开资料。
+title: "[资料纠错] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        这里用于纠正萌测和本仓库里的公开资料。Issue 内容公开，请勿附 API Key、账号资料或含敏感信息的截图。
+  - type: input
+    id: affected-entry
+    attributes:
+      label: 站点名称或待更正页面
+      description: 如果能定位到具体页面，请附上萌测或 GitHub 链接。
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: 当前内容和建议修改
+      description: 涉及价格时，请写明模型、分组或线路、输入价与输出价、币种和计费单位。
+    validations:
+      required: true
+  - type: textarea
+    id: official-source
+    attributes:
+      label: 核实依据
+      description: 请附可核对的公开价表、官方文档或公告链接。知道生效日期时也请注明。
+    validations:
+      required: true

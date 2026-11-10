@@ -65,6 +65,6 @@ Claude、GPT、Gemini、DeepSeek 的 API 中转站怎么比价？这里整理了
 
 - [比较口径](methodology.md)解释汇率、价格分档、监控与模型实测的区别。
 - [OpenRouter](stations/openrouter.md)与 [API易](stations/apiyi.md)记录各自的目录、路由或分组和充值规则。
-- [提交资料纠错](https://try.moe/submit?kind=correction)时可附站点、模型、分组与官方价表链接。
+- 欢迎推荐中转站、纠正报价和资料、反馈页面问题。[在 GitHub 提交](https://github.com/trymoe/ai-api-relay-comparison/issues/new/choose) · [在萌测报站或纠错](https://try.moe/submit)
 
 这些数字来自公开报价。判断模型身份、工具兼容性和调用稳定性需要单独验证。

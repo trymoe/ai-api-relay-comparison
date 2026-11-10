@@ -1,0 +1,27 @@
+name: 反馈使用问题
+description: 反馈萌测网站或本仓库的页面、筛选、费用估算和链接问题。
+title: "[问题反馈] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请说明问题发生在萌测的哪个页面或仓库的哪个文件。Issue 内容公开，请勿附 API Key、登录凭据或个人信息。第三方中转站的订单与账户问题，请联系该站客服。
+  - type: input
+    id: affected-page
+    attributes:
+      label: 问题页面或文件
+      description: 请附链接，或写出仓库里的文件路径。
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 发生了什么
+      description: 请写出触发问题的操作、实际结果和预期结果。
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 补充信息
+      description: 可填写浏览器、设备或出现时间，也可附上已遮挡敏感信息的截图。
