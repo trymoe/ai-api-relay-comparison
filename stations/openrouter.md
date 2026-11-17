@@ -1,6 +1,6 @@
 # OpenRouter API 价格与充值规则
 
-OpenRouter 汇总多家模型供应商的接口。比价时先确认 API 型号、供应商路由和服务等级。下表采用公开目录的文本单价，具体线路的缓存、工具及文本价格以该线路为准。
+OpenRouter 汇总多家模型供应商的接口。比价时先确认 API 型号、供应商路由和服务等级。下表采用官方 `/api/v1/models` 目录的文本单价，具体线路的缓存、工具及文本价格以该线路为准。
 
 ## 充值与退款
 
@@ -12,9 +12,9 @@ OpenRouter 汇总多家模型供应商的接口。比价时先确认 API 型号�
 
 | 模型 | 输入单价 | 输出单价 | 币种 | 采集日（UTC） | 来源 |
 | --- | ---: | ---: | --- | --- | --- |
-| Claude Sonnet 5.5 | 2 | 10 | USD | 2026-11-03 | [官方报价](https://openrouter.ai/api/v1/models) |
-| GPT-4.1 Mini | 0.4 | 1.6 | USD | 2026-11-03 | [官方报价](https://openrouter.ai/api/v1/models) |
-| Gemini 4 Argon | 2 | 10 | USD | 2026-11-03 | [官方报价](https://openrouter.ai/api/v1/models) |
-| DeepSeek V4.1 Flash | 0.051 | 0.567 | USD | 2026-11-06 | [官方报价](https://openrouter.ai/api/v1/models) |
+| Claude Sonnet 5.5 | 2 | 10 | USD | 2026-11-17 | [官方报价](https://openrouter.ai/api/v1/models) |
+| GPT-4.1 Mini | 0.4 | 1.6 | USD | 2026-11-17 | [官方报价](https://openrouter.ai/api/v1/models) |
+| Gemini 4 Argon | 2 | 10 | USD | 2026-11-17 | [官方报价](https://openrouter.ai/api/v1/models) |
+| DeepSeek V4.1 Flash | 0.14 | 0.42 | USD | 2026-11-17 | [官方报价](https://openrouter.ai/api/v1/models) |
 
 [查看萌测完整站点资料](https://try.moe/station/openrouter) · [返回横向比价](../README.md)
